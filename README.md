@@ -1,5 +1,7 @@
 # Операционные системы (каф. ИВК УлГТУ, 2019)
 
+[Регистрация на практику студентов от ИнтелСофт](https://forms.gle/7ZP3nwX38ZYcVeVc8)
+
 ## Текущий прогресс студентов
 
 - [ИСТбд-21](https://docs.google.com/spreadsheets/d/1g7_kwqEi_qdjhTRezME1zxt95XhrrabL8j-e9TmtZN8/edit?usp=sharing)
