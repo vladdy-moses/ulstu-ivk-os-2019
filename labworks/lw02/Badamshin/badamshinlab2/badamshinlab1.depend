@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1552838541 source:/home/comrade/Documents/badamshin labs/badamshinlab1/main.cpp
+	<iostream>
+	<sys/types.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<dirent.h>
+	<string.h>
+
