@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
 
-    key_t key = ftok("/home/Anna", 1);
+    key_t key = ftok("/home/Anna/Documents", 1);
     int sh = shmget(key, sizeof(int), IPC_CREAT|0777); // получаем значение ключа
     int* memory = (int*)shmat(sh, NULL, 0); // отображаем область разделяемой памяти по ключу в адресное пространство текущего процесса
     int length = *memory;

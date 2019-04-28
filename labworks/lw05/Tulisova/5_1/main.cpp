@@ -15,11 +15,11 @@ using namespace std;
 
 int main()
 {
-    int cpp = open("/home/Documents/5/5_1/main.cpp", O_RDONLY);
+    int cpp = open("/home/Anna/Documents/5/5_1/main.cpp", O_RDONLY);
     struct stat st; // структура необходима для получения информации о файле
     lstat("/home/Anna/Documents/5/5_1/main.cpp", &st); //возвращает информацию о файле и заполняет структуру st
     int sizeST = st.st_size;
-    key_t key = ftok("/home/Anna", 1);//Получение значения ключа из двух компонентов осуществляется функцией ftok()
+    key_t key = ftok("/home/Anna/Documents", 1);//Получение значения ключа из двух компонентов осуществляется функцией ftok()
     int sh;
     if ((sh = shmget(key, sizeST+sizeof(int), IPC_CREAT|IPC_EXCL|0777))<0) //Для создания области разделяемой памяти
     //с определенным ключом или доступа по ключу к уже существующей области применяется системный вызов shmget()
