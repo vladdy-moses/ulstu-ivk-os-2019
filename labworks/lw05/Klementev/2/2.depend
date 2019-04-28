@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1556468416 source:/home/sergio/lab/5/2/main.c
+	<stdlib.h>
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<stdio.h>
+	<errno.h>
+
