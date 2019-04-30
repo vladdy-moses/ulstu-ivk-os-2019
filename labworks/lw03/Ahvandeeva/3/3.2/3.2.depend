@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554892527 source:/home/nastya/labs/3labrab/3.2/main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+
