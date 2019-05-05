@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1554111191 source:/home/student/Desktop/lab2_3/main.c
+	<fcntl.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/mman.h>
+	<stdio.h>
+	<stdlib.h>
+
