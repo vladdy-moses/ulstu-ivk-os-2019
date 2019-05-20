@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554906472 source:/home/student/new/35/main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+

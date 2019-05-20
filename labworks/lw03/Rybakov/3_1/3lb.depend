@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1554904329 source:/home/student/new/3lb/main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+
+1554852128 source:c:\users\user\desktop\lb3\3lb\main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+
