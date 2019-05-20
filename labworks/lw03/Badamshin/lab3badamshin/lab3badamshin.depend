@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1553598376 source:/home/student/Documents/lab3badamshin/main.cpp
+	<iostream>
+	<sys/types.h>
+	<unistd.h>
+	<cstring>
+	<stdlib.h>
+
