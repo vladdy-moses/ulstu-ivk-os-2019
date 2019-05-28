@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558118344 source:/home/sergio/labrab/labrab4/4.4/main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+

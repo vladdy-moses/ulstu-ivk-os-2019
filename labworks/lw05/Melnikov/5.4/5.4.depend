@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1558519855 source:/home/sergio/labrab/labrab5/5.4/main.c
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<errno.h>
+	<sys/stat.h>
+
