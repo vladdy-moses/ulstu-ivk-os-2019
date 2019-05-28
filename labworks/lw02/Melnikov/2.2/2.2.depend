@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1557815980 source:/home/sergio/labrab/labrab2/2.2/main.c
+	<fcntl.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<dirent.h>
+	<stdio.h>
+
