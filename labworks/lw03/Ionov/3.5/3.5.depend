@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1558478756 source:/home/roman/OC/3/3.5/main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+
+1558535558 source:/home/student/Desktop/OC/3/3.5/main.c
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+
