@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1558479506 source:/home/roman/OC/5/5.1/main.c
+	<stdlib.h>
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+	<stdio.h>
+	<errno.h>
+
