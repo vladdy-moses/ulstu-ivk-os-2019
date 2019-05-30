@@ -1,0 +1,10 @@
+#include <sys/types.h>
+#include <unistd.h>
+
+int main()
+{
+    printf("Лабораторная работа №3 Задание 1\n\
+Выполнил студент ИСТбд-21 Цыпленков Д. А.\n");
+    printf("PID = %d, Parent PID = %d\n", getpid(), getppid()); //parent process ID
+    return 0;
+}
