@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <dirent.h>
+
+int main()
+{
+    printf ("Лабораторная работа № 2.5\
+            \nПрусаков А.О. ПСбд-21 /n");
+
+    DIR* dir;//nип данных DIR представляет собой некоторую структуру данных, описывающую поток каталога, который открывает opendir
+    struct dirent *entry;//специальная структура данных, описывающая одну запись в директории
+    dir=opendir("..");//открывает поток каталога и вовращает указатель на структуру типа DIR
+    //entry=readdir(dir);
+    while ((entry=readdir(dir))!=NULL)//возвращает название след файла в каталоге
+    {
+        printf ("%lu - %s %d \n", entry->d_ino, entry->d_name, entry->d_type);
+    };
+    closedir(dir);
+    return 0;
+}
